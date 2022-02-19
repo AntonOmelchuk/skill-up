@@ -16,4 +16,5 @@ export default {
   animatedForm: 'Анімована Форма',
   login: 'логін',
   progressBar: 'Індикатор Завантаження',
+  photoGrid: 'Фотосітка',
 };

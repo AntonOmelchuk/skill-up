@@ -16,4 +16,5 @@ export default {
   animatedForm: 'Animated Form',
   login: 'login',
   progressBar: 'Progress Bar',
+  photoGrid: 'Photo Grid',
 };

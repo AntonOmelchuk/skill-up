@@ -71,7 +71,7 @@ const MainNavigator: FC = () => {
         name="PhotoGrid"
         component={PhotoGrid}
         options={{
-          headerTitle: t('progressBar'),
+          headerTitle: t('photoGrid'),
         }}
       />
     </Stack.Navigator>

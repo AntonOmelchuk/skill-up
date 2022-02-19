@@ -25,7 +25,7 @@ const Animations = () => {
       <Text style={styles.text} onPress={() => navigate('SwipeCards')}>{t('swipeCards')}</Text>
       <Text style={styles.text} onPress={() => navigate('AnimatedForm')}>{t('animatedForm')}</Text>
       <Text style={styles.text} onPress={() => navigate('ProgressBar')}>{t('progressBar')}</Text>
-      <Text style={styles.text} onPress={() => navigate('PhotoGrid')}>{t('progressBar')}</Text>
+      <Text style={styles.text} onPress={() => navigate('PhotoGrid')}>{t('photoGrid')}</Text>
     </View>
   );
 };
