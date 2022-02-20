@@ -23,6 +23,7 @@
     "arrow-body-style": 0,
     "react/prefer-stateless-function": 0,
     "@typescript-eslint/default-param-last": 0,
+    "react/jsx-props-no-spreading": 0,
     "no-trailing-spaces": 0,
     "comma-dangle": 0,
     "radix": 0,
@@ -39,12 +40,6 @@
       "error",
       {
         "devDependencies": true
-      }
-    ],
-    "react/jsx-props-no-spreading": [
-      "error",
-      {
-        "exceptions": ["StaggeredDrag", "SwipeCardItem"]
       }
     ],
     "import/extensions": [
