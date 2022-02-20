@@ -17,4 +17,5 @@ export default {
   login: 'логин',
   progressBar: 'Индикатор загрузки',
   photoGrid: 'Фотосетка',
+  animatedMenu: 'Анимированное меню',
 };

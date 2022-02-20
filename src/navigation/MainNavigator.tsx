@@ -10,9 +10,11 @@ import SwipeCards from '../screens/Animations/animations/SwipeCards';
 import AnimatedForm from '../screens/Animations/animations/AnimatedForm';
 import ProgressBar from '../screens/Animations/animations/ProgressBar';
 import PhotoGrid from '../screens/Animations/animations/PhotoGrid';
+import AnimatedMenu from '../screens/Animations/animations/AnimatedMenu';
 import ITheme from '../themes/interfaces';
+import { MainStackNavigatorParamList } from './interfaces/mainNavigator.interface';
 
-const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator<MainStackNavigatorParamList>();
 
 const MainNavigator: FC = () => {
   const { t } = useTranslation();
@@ -72,6 +74,13 @@ const MainNavigator: FC = () => {
         component={PhotoGrid}
         options={{
           headerTitle: t('photoGrid'),
+        }}
+      />
+      <Stack.Screen
+        name="AnimatedMenu"
+        component={AnimatedMenu}
+        options={{
+          headerTitle: t('animatedMenu'),
         }}
       />
     </Stack.Navigator>

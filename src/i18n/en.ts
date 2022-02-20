@@ -17,4 +17,5 @@ export default {
   login: 'login',
   progressBar: 'Progress Bar',
   photoGrid: 'Photo Grid',
+  animatedMenu: 'Animated Menu',
 };
