@@ -6,7 +6,7 @@ import { useTheme } from '@react-navigation/native';
 import { useTranslation } from 'react-i18next';
 import SmallButton from '../../../components/SmallButton/SmallButton';
 import ITheme from '../../../themes/interfaces';
-import clamp from '../../../utils/helpers';
+import { clamp } from '../../../utils/helpers';
 import { CARDS_IMAGES } from '../../../constants/defines';
 import SwipeCardItem from './components/SwipeCardItem';
 

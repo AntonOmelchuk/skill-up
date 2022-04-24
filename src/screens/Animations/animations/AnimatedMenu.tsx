@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { View, Animated, StyleSheet } from 'react-native';
 import { useTheme } from '@react-navigation/native';
+import { t } from 'i18next';
 import RoundButton from '../../../components/RoundButton/RoundButton';
 import ITheme from '../../../themes/interfaces';
 
@@ -63,14 +64,14 @@ const AnimatedMenu = () => {
         <RoundButton
           onPress={onMainButtonPressHandler}
           bgColor={success}
-          title="5.00$"
+          title="Buy"
         />
       </Animated.View>
       <Animated.View style={[styles.button, dangerButtonStyles]}>
         <RoundButton
           onPress={onMainButtonPressHandler}
           bgColor={danger}
-          title="5.00$"
+          title={t('cancel')}
         />
       </Animated.View>
       <RoundButton

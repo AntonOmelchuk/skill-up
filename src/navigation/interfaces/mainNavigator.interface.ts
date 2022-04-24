@@ -8,4 +8,5 @@ export type MainStackNavigatorParamList = {
   ProgressBar: undefined
   PhotoGrid: undefined
   AnimatedMenu: undefined
+  ScreenBreakdown: undefined
 };

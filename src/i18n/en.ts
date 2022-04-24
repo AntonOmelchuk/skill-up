@@ -1,5 +1,4 @@
 export default {
-  hello: 'Hello',
   main: 'main',
   settings: 'settings',
   darkMode: 'dark mode',
@@ -18,4 +17,7 @@ export default {
   progressBar: 'Progress Bar',
   photoGrid: 'Photo Grid',
   animatedMenu: 'Animated Menu',
+  buy: 'buy',
+  cancel: 'cancel',
+  screenBreakdown: 'Screen Breakdown',
 };

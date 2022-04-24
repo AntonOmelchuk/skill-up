@@ -1,5 +1,4 @@
 export default {
-  hello: 'Привіт',
   main: 'головна',
   settings: 'налаштування',
   darkMode: 'темная тема',
@@ -18,4 +17,7 @@ export default {
   progressBar: 'Індикатор Завантаження',
   photoGrid: 'Фотосітка',
   animatedMenu: 'Анімоване меню',
+  buy: 'Купити',
+  cancel: 'Відміна',
+  screenBreakdown: 'Розбиття екрану',
 };

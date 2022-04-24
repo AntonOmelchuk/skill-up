@@ -59,3 +59,4 @@ buck-out/
 # CocoaPods
 /ios/Pods/
 .vscode/settings.json
+ios/testProject.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist

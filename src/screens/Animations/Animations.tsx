@@ -27,6 +27,7 @@ const Animations = () => {
       <Text style={styles.text} onPress={() => navigate('ProgressBar')}>{t('progressBar')}</Text>
       <Text style={styles.text} onPress={() => navigate('PhotoGrid')}>{t('photoGrid')}</Text>
       <Text style={styles.text} onPress={() => navigate('AnimatedMenu')}>{t('animatedMenu')}</Text>
+      <Text style={styles.text} onPress={() => navigate('ScreenBreakdown')}>{t('screenBreakdown')}</Text>
     </View>
   );
 };

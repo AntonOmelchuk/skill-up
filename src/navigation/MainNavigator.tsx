@@ -11,6 +11,7 @@ import AnimatedForm from '../screens/Animations/animations/AnimatedForm';
 import ProgressBar from '../screens/Animations/animations/ProgressBar';
 import PhotoGrid from '../screens/Animations/animations/PhotoGrid';
 import AnimatedMenu from '../screens/Animations/animations/AnimatedMenu';
+import ScreenBreakdown from '../screens/Animations/animations/ScreenBreakdown';
 import ITheme from '../themes/interfaces';
 import { MainStackNavigatorParamList } from './interfaces/mainNavigator.interface';
 
@@ -81,6 +82,13 @@ const MainNavigator: FC = () => {
         component={AnimatedMenu}
         options={{
           headerTitle: t('animatedMenu'),
+        }}
+      />
+      <Stack.Screen
+        name="ScreenBreakdown"
+        component={ScreenBreakdown}
+        options={{
+          headerTitle: t('screenBreakdown'),
         }}
       />
     </Stack.Navigator>
